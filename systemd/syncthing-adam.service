@@ -1,0 +1,7 @@
+[Unit]
+Description=Syncthing Adam Optimizer - Adaptive Sync Rate
+After=syncthing.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/toowired/bin/syncthing-adam-optimizer.sh
